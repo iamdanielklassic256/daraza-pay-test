@@ -13,9 +13,9 @@ const StunningPaymentForm = () => {
     const myHeaders = new Headers();
     myHeaders.append("Authorization", "Api-Key PmU43Tvn.HUpZDJNUTQczIX4457In3wFDK6ngqiLi");
     myHeaders.append("Content-Type", "application/json");
-    myHeaders.append("Access-Control-Allow-Headers", "Content-Type");
-    myHeaders.append("Access-Control-Allow-Origin", `${window.location.protocol}//${window.location.host}`);
-    myHeaders.append("Access-Control-Allow-Methods", "POST");
+    // myHeaders.append("Access-Control-Allow-Headers", "Content-Type");
+    // myHeaders.append("Access-Control-Allow-Origin", `${window.location.protocol}//${window.location.host}`);
+    // myHeaders.append("Access-Control-Allow-Methods", "POST");
 
     const raw = JSON.stringify({
       method: 1,
